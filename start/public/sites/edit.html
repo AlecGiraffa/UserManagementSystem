@@ -1,0 +1,88 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm-2">
+            <span><label></h5><b>ID</b></h5></label></span>
+            <span type="text" ng-model="id">{{id}}</span>
+        </div>
+        <div class="col-sm-3">
+            <span style="display:inline-block"><label></h5><b>First Name</b></h5></label></span>
+            <span style="display:inline-block"><input type="text" ng-model="fName" placeholder="First Name"></span>
+        </div>
+        <div class="col-sm-3 col-sm-offset-1">
+            <span style="display:inline-block"><label></h5><b>Last Name</b></h5></label></span>
+            <span style="display:inline-block"><input type="text" ng-model="lName" placeholder="Last Name"></span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3 col-sm-offset-2">
+            <label></h5><b>Title</b></h5></label>
+            <input type="text" ng-model="Title" placeholder="Title">
+        </div>
+        <div class="col-sm-3 col-sm-offset-1">
+            <label></h5><b>Sex</b></h5></label>
+            <input type="text" ng-model="Sex" placeholder="Sex">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 col-sm-offset-2">
+            <label></h5><b>Start Date</b></h5></label>
+            <input style="display: inline-block" type="text" ng-model="Month" placeholder="Month">
+            <input style="display: inline-block" type="text" ng-model="Day" placeholder="Day">
+            <input style="display: inline-block" type="text" ng-model="year" placeholder="year">
+        </div>
+    </div>
+    <div class="row">
+            <div class="col-sm-12 col-sm-offset-2">
+                <label></h5><b>Office Phone</b></h5></label>
+                <input style="display: inline-block" type="text" ng-model="tel_areaCode" placeholder="xxx">
+                <input style="display: inline-block" type="text" ng-model="tel_subCode1" placeholder="xxx">
+                <input style="display: inline-block" type="text" ng-model="tel_subCode2" placeholder="xxxx">
+
+            </div>
+    </div>
+    <div class="row">
+            <div class="col-sm-12 col-sm-offset-2">
+                <label></h5><b>SMS</b></h5></label>
+                <input style="display: inline-block" type="text" ng-model="sms_areaCode" placeholder="xxx">
+                <input style="display: inline-block" type="text" ng-model="sms_subCode1" placeholder="xxx">
+                <input style="display: inline-block" type="text" ng-model="sms_subCode2" placeholder="xxxx">
+            </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 col-sm-offset-2">
+            <label></h5><b>Email</b></h5></label>
+            <input type="text" ng-model="Email" placeholder="xxx@xxx.com">
+        </div>
+    </div>
+    <hr />
+    <div class="row">
+        <div class="col-sm-2">
+            <span><label></h5><b># of Direct Report</b></h5></label></span>
+            <span type="text" ng-model="NumReport">{{NumReport}}</span>
+        </div>
+        <div class="col-sm-3 col-sm-offset-1">
+            <div><label></h5><b>Employees</b></h5></label></div>
+            <div ng-repeat="employee in employees">
+                <div>{{ employee.Name.fName +  " " +employee.Name.lName}}</div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <span><label></h5><b>Manager</b></h5></label></span>
+            <span type="text" ng-model="Manager">{{Manager}}</span>
+        </div>
+        <div class="col-sm-3">
+            <button ng-click="show = true" >
+                Select Manger
+            </button>
+            <div ng-show = "show">
+                <div ng-repeat="manager in managers | orderBy : id">
+                    <div><button ng-model="selected" ng-click="updateManager(manager)" ng-disabled="selected">click</button><i>{{ manager.Name.fName + " " + manager.Name.lName}}</i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="row" style="text-align: center">
+        <button ng-click="saveChange(fName, lName, Title, Sex, Month, Day, year, tel_areaCode, tel_subCode1, tel_subCode2, sms_areaCode, sms_subCode1, sms_subCode2, Email)">Save Change</a></button>
+    </div>
+</div>

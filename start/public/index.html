@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app="myApp" xmlns="http://www.w3.org/1999/html">
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Client Management System</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ngInfiniteScroll/1.2.2/ng-infinite-scroll.min.js">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./stylesheets/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js">
+
+</head>
+<body>
+       <div class="container">
+           <div class="jumbotron">
+               <h1 style="text-align: center">Client Directory</h1>
+           </div>
+
+           <div>
+               <ng-view>
+               </ng-view>
+           </div>
+       </div>
+       <script type="text/javascript" src="javascripts/angular.js"></script>
+       <script type="text/javascript" src="javascripts/angular-route.min.js"></script>
+       <script type="text/javascript" src="javascripts/services/route.js" ></script>
+       <script type="text/javascript" src="javascripts/control/listController.js"></script>
+       <script type="text/javascript" src="javascripts/control/newController.js"></script>
+       <script type="text/javascript" src="javascripts/control/editController.js"></script>
+       <script type="text/javascript" src="javascripts/services/listService.js"></script>
+       <script type="text/javascript" src="javascripts/services/editService.js"></script>
+       <script type="text/javascript" src="javascripts/services/newService.js"></script>
+       <script type="text/javascript" src="javascripts/services/delService.js"></script>
+
+
+</body>
+</html>

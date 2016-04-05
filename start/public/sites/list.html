@@ -1,0 +1,58 @@
+<div class="row">
+    <div class="col-sm-2" style="display: inline-block">
+        <label>Search</label>
+        <input style="display: block; height: 25px; width: 200px; outline: none;" type="text" ng-model="searchText" placeholder="Search any text">
+    </div>
+    <div class="col-sm-2 col-sm-offset-1" style="display: inline-block">
+        <label>Sort</label>
+        <select style="display: block; height: 25px; width: 200px; outline: none;" type="text" ng-model="myOrder">
+            <option value="Name.fName">By first name</option>
+            <option value="Name.lName">By last name</option>
+            <option value="Title">By title</option>
+            <option value="id">By id</option>
+        </select>
+    </div>
+</div>
+<div class="row" style="text-align: center">
+    <div class="col-sm-2" >
+        <h6>IMAGE</h6>
+    </div>
+    <div class="col-sm-1">
+        <h6>ID</h6>
+    </div>
+    <div class="col-sm-3">
+        <h6>NAME</h6>
+    </div>
+    <div class="col-sm-3">
+        <h6>TITLE</h6>
+    </div>
+
+</div>
+<div infinite-scroll="myPagingFunction()" infinite-scroll-distance="3">
+<div ng-repeat="user in users | filter : searchText |orderBy : myOrder">
+    <div class="row" style="text-align: center">
+        <div class="col-sm-2">
+            <div class="glyphicon glyphicon-picture">image</div>
+        </div>
+        <div class="col-sm-1">
+            <div>{{user.id}}</div>
+        </div>
+        <div class="col-sm-3">
+            <div>{{user.Name.fName + " " + user.Name.lName}}</a></div>
+        </div>
+        <div class="col-sm-3">
+            <div>{{user.Title}}</div>
+        </div>
+        <div class="col-sm-3" style="display:inline-block">
+                <button><a href="#edit" ng-click="passID(user.id, 'edit', user.NumReport)">edit</a></button>
+                <button ng-click="deleteID(user.id)">delete</button>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="row" style="border: solid; width: 200px;">
+    <div class="col-sm-12" style="text-align: center" >
+        <a href="#/new"><b>Create new staff</b></a>
+    </div>
+</div>

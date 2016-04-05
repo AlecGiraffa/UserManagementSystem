@@ -1,0 +1,621 @@
+[
+{
+"id": 1,
+"Name":{
+"fName": "Peiwei",
+"lName": "Mi"
+}, "Title": "CEO",
+"Sex": "Male",
+"Start Date":
+{
+"Month": "10",
+"Day": "1",
+"year": "2000"
+},
+"Office Phone":
+{
+"areaCode": "408",
+"subCode1": "000",
+"subCode2": "0000"},
+"SMS":{
+"areaCode": "408",
+"subCode1": "000",
+"subCode2": "0000"
+},
+"Email": "Peiwei@valiantica.com",
+"Manager":{}
+,
+"DirectReports": [
+{
+"fName": "Julie",
+"lName": "Taylor"
+},
+{
+"fName": "Ray",
+"lName": "Moore"
+},
+{
+"fName": "John",
+"lName": "Williams"
+},
+{
+"fName": "Eugene",
+"lName": "Lee"
+}
+]
+},
+{
+"id": 2,
+"Name":{
+"fName": "Eugene",
+"lName": "Lee"
+},
+"Title": "CFO",
+"Sex": "Male",
+"Start Date":
+{
+"Month": "10",
+"Day": "1",
+"year": "2000"
+},
+"Office Phone":{
+"areaCode": "408",
+"subCode1": "121",
+"subCode2": "0223"
+},
+"SMS":
+{
+"areaCode": "408",
+"subCode1": "121",
+"subCode2": "0223"
+},
+"Email": "ELee@valiantica.com",
+"Manager":
+{
+"fName": "Peiwei",
+"lName": "Mi"
+},
+"DirectReports": [
+{
+"fName": "John",
+"lName": "Yan"
+}
+]
+},
+{
+"id": 3,
+"Name":{
+"fName": "Julie",
+"lName": "Taylor"
+}, "Title" : "VP of Marketing",
+"Sex": "Female",
+"Start Date":{
+"Month": "10",
+"Day": "1",
+"year": "2000"
+},
+"Office Phone":{
+"areaCode": "408",
+"subCode1": "123",
+"subCode2": "8000"},
+"SMS" :{
+"areaCode": "408",
+"subCode1": "123",
+"subCode2": "8000"
+},
+"Email": "JTalor@valiantica.com",
+"Manager" :{
+"fName": "Peiwei",
+"lName": "Mi"
+},
+"DirectReports": [
+{
+"fName": "Lisa",
+"lName": "Wong"
+},
+{
+"fName": "Gary",
+"lName": "Donovan"
+}
+]
+},
+{
+"id": 4,
+"Name":{
+"fName": "Ray",
+"lName": "Moore"
+}, "Title" : "VP of Sales",
+"Sex": "Male",
+"Start Date":{
+"Month": "10",
+"Day": "1",
+"year": "2000"
+},
+"Office Phone":{
+"areaCode": "408",
+"subCode1": "230",
+"subCode2": "2300"},
+"SMS" :{
+"areaCode": "408",
+"subCode1": "230",
+"subCode2": "2300"
+},
+"Email": "RMoore@valiantica.com",
+"Manager" :{
+"fName": "Peiwei",
+"lName": "Mi"
+},
+"DirectReports": [
+{
+"fName": "Jackson",
+"lName": "Tynn"
+}
+]
+},
+{
+"id": 5,
+"Name":{
+"fName": "John",
+"lName": "Williams"
+}, "Title" : "VP of Engineering",
+"Sex": "Male",
+"Start Date":{
+"Month": "10",
+"Day": "1",
+"year": "2000"
+},
+"Office Phone":{
+"areaCode": "408",
+"subCode1": "120",
+"subCode2": "1200"},
+"SMS" :{
+"areaCode": "408",
+"subCode1": "120",
+"subCode2": "1200"
+},
+"Email": "JWilliams@valiantica.com",
+"Manager" :{
+"fName": "Peiwei",
+"lName": "Mi"
+},
+"DirectReports": [
+{
+"fName": "Paul",
+"lName": "Jones"
+},
+{
+"fName": "Terry",
+"lName": "John"
+}
+]
+},
+{
+"id": 6,
+"Name":{
+"fName": "John",
+"lName": "Yan"
+}, "Title" : "Finance Manager",
+"Sex": "Male",
+"Start Date":{
+"Month": "10",
+"Day": "1",
+"year": "2000"
+},
+"Office Phone":{
+"areaCode": "408",
+"subCode1": "030",
+"subCode2": "0300"},
+"SMS" :{
+"areaCode": "408",
+"subCode1": "030",
+"subCode2": "0300"
+},
+"Email": "JYan@valiantica.com",
+"Manager" :{
+"fName": "Eugene",
+"lName": "Lee"
+},
+"DirectReports": [
+{
+"fName": "Paneesh",
+"lName": "Melac"
+}
+]
+},
+{
+"id": 7,
+"Name":{
+"fName": "Lisa",
+"lName": "Wong"
+}, "Title" : "Marketing Manager",
+"Sex": "Female",
+"Start Date":{
+"Month": "10",
+"Day": "1",
+"year": "2000"
+},
+"Office Phone":{
+"areaCode": "408",
+"subCode1": "010",
+"subCode2": "0100"},
+"SMS" :{
+"areaCode": "408",
+"subCode1": "010",
+"subCode2": "0100"
+},
+"Email": "LWong@valiantica.com",
+"Manager" :{
+"fName": "Julie",
+"lName": "Taylor"
+},
+"DirectReports": [
+{
+"fName": "Vaneer",
+"lName": "May"
+},
+{
+"fName": "Min",
+"lName": "Lee"
+}
+]
+},
+{
+"id": 8,
+"Name":{
+"fName": "Gary",
+"lName": "Donovan"
+}, "Title" : "Marketing Manager",
+"Sex": "Male",
+"Start Date":{
+"Month": "10",
+"Day": "1",
+"year": "2000"
+},
+"Office Phone":{
+"areaCode": "408",
+"subCode1": "020",
+"subCode2": "0200"},
+"SMS" :{
+"areaCode": "408",
+"subCode1": "020",
+"subCode2": "0200"
+},
+"Email": "MDonovan@valiantica.com",
+"Manager" :{
+"fName": "Julie",
+"lName": "Taylor"
+},
+"DirectReports": [
+{
+"fName": "Johnson",
+"lName": "Glen"
+}
+]
+},
+{
+"id": 9,
+"Name":{
+"fName": "Jackson",
+"lName": "Tynn"
+}, "Title" : "Sales Manager",
+"Sex": "Male",
+"Start Date":{
+"Month": "10",
+"Day": "1",
+"year": "2000"
+},
+"Office Phone":{
+"areaCode": "408",
+"subCode1": "100",
+"subCode2": "1000"},
+"SMS" :{
+"areaCode": "408",
+"subCode1": "100",
+"subCode2": "1000"
+},
+"Email": "JTynn@valiantica.com",
+"Manager" :{
+"fName": "Ray",
+"lName": "Moore"
+},
+"DirectReports": []
+},
+{
+"id": 10,
+"Name":{
+"fName": "Paul",
+"lName": "Jones"
+}, "Title" : "QA Manager",
+"Sex": "Male",
+"Start Date":{
+"Month": "10",
+"Day": "1",
+"year": "2000"
+},
+"Office Phone":{
+"areaCode": "408",
+"subCode1": "520",
+"subCode2": "5200"},
+"SMS" :{
+"areaCode": "408",
+"subCode1": "520",
+"subCode2": "5200"
+},
+"Email": "PJones@valiantica.com",
+"Manager" :{
+"fName": "John",
+"lName": "Williams"
+},
+"DirectReports": [
+{
+"fName": "Bruce",
+"lName": "John"
+},
+{
+"fName": "Alice",
+"lName": "Tang"
+}
+]
+},
+{
+"id": 11,
+"Name":{
+"fName": "Terry",
+"lName": "John"
+}, "Title" : "Software Manager",
+"Sex": "Male",
+"Start Date":{
+"Month": "10",
+"Day": "1",
+"year": "2000"
+},
+"Office Phone":{
+"areaCode": "408",
+"subCode1": "530",
+"subCode2": "5300"},
+"SMS" :{
+"areaCode": "408",
+"subCode1": "530",
+"subCode2": "5300"
+},
+"Email": "TJohn@valiantica.com",
+"Manager" :{
+"fName": "John",
+"lName": "Williams"
+},
+"DirectReports": [
+{
+"fName": "Simon",
+"lName": "Wu"
+},
+{
+"fName": "Li",
+"lName": "Hai"
+}
+]
+},
+{
+"id": 12,
+"Name":{
+"fName": "Paneesh",
+"lName": "Melac"
+}, "Title" : "Invest Analyst",
+"Sex": "Female",
+"Start Date":{
+"Month": "10",
+"Day": "1",
+"year": "2000"
+},
+"Office Phone":{
+"areaCode": "408",
+"subCode1": "540",
+"subCode2": "5400"},
+"SMS" :{
+"areaCode": "408",
+"subCode1": "540",
+"subCode2": "5400"
+},
+"Email": "PMelac@valiantica.com",
+"Manager" :{
+"fName": "John",
+"lName": "Yan"
+},
+"DirectReports": []
+},
+{
+"id": 13,
+"Name":{
+"fName": "Vaneer",
+"lName": "May"
+}, "Title" : "Market Analyst",
+"Sex": "Female",
+"Start Date":{
+"Month": "10",
+"Day": "1",
+"year": "2000"
+},
+"Office Phone":{
+"areaCode": "408",
+"subCode1": "550",
+"subCode2": "5500"},
+"SMS" :{
+"areaCode": "408",
+"subCode1": "550",
+"subCode2": "5500"
+},
+"Email": "VMay@valiantica.com",
+"Manager" :{
+"fName": "Lisa",
+"lName": "Wong"
+},
+"DirectReports": []
+},
+{
+"id": 14,
+"Name":{
+"fName": "Min",
+"lName": "Lee"
+}, "Title" : "Market Analyst",
+"Sex": "Female",
+"Start Date":{
+"Month": "10",
+"Day": "1",
+"year": "2000"
+},
+"Office Phone":{
+"areaCode": "408",
+"subCode1": "560",
+"subCode2": "5600"},
+"SMS" :{
+"areaCode": "408",
+"subCode1": "560",
+"subCode2": "5600"
+},
+"Email": "MLee@valiantica.com",
+"Manager" :{
+"fName": "Lisa",
+"lName": "Wong"
+},
+"DirectReports": []
+},
+{
+"id": 15,
+"Name":{
+"fName": "Johnson",
+"lName": "Glen"
+}, "Title" : "Market Analyst",
+"Sex": "Male",
+"Start Date":{
+"Month": "10",
+"Day": "1",
+"year": "2000"
+},
+"Office Phone":{
+"areaCode": "408",
+"subCode1": "570",
+"subCode2": "5700"},
+"SMS" :{
+"areaCode": "408",
+"subCode1": "570",
+"subCode2": "5700"
+},
+"Email": "JGlen@valiantica.com",
+"Manager" :{
+"fName": "Gary",
+"lName": "Donovan"
+},
+"DirectReports": []
+},
+{
+"id": 16,
+"Name":{
+"fName": "Simon",
+"lName": "Wu"
+}, "Title" : "FrontEnd Manager",
+"Sex": "Male",
+"Start Date":{
+"Month": "10",
+"Day": "1",
+"year": "2000"
+},
+"Office Phone":{
+"areaCode": "408",
+"subCode1": "580",
+"subCode2": "5800"},
+"SMS" :{
+"areaCode": "408",
+"subCode1": "580",
+"subCode2": "5800"
+},
+"Email": "SWu@valiantica.com",
+"Manager" :{
+"fName": "Terry",
+"lName": "John"
+},
+"DirectReports": []
+},
+{
+"id": 17,
+"Name":{
+"fName": "Li",
+"lName": "Hai"
+}, "Title" : "BackEnd Manager",
+"Sex": "Male",
+"Start Date":{
+"Month": "10",
+"Day": "1",
+"year": "2000"
+},
+"Office Phone":{
+"areaCode": "408",
+"subCode1": "600",
+"subCode2": "6000"},
+"SMS" :{
+"areaCode": "408",
+"subCode1": "600",
+"subCode2": "6000"
+},
+"Email": "LHai@valiantica.com",
+"Manager" :{
+"fName": "Terry",
+"lName": "John"
+},
+"DirectReports": []
+},
+{
+"id": 18,
+"Name":{
+"fName": "Bruce",
+"lName": "John"
+}, "Title" : "QA Engineer",
+"Sex": "Male",
+"Start Date":{
+"Month": "10",
+"Day": "1",
+"year": "2000"
+},
+"Office Phone":{
+"areaCode": "408",
+"subCode1": "610",
+"subCode2": "6100"},
+"SMS" :{
+"areaCode": "408",
+"subCode1": "610",
+"subCode2": "6100"
+},
+"Email": "BJohn@valiantica.com",
+"Manager" :{
+"fName": "Paul",
+"lName": "Jones"
+},
+"DirectReports": []
+},
+{
+"id": 19,
+"Name":{
+"fName": "Alice",
+"lName": "Tang"
+}, "Title" : "QA Engineer",
+"Sex": "Female",
+"Start Date":{
+"Month": "10",
+"Day": "1",
+"year": "2000"
+},
+"Office Phone":{
+"areaCode": "408",
+"subCode1": "620",
+"subCode2": "6200"},
+"SMS" :{
+"areaCode": "408",
+"subCode1": "620",
+"subCode2": "6200"
+},
+"Email": "ATang@valiantica.com",
+"Manager" :{
+"fName": "Paul",
+"lName": "Jones"
+},
+"DirectReports": []
+}
+]
